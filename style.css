@@ -1,10 +1,74 @@
+body > * {
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    border-radius: 10px;
+}
+
+.sedan, .suv, .luxury {
+    display: block;
+    height: 400px;
+    padding: 50px;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+h2 {
+    color:hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.5em;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    height: 3em;
+    width: 11em;
+    border-radius: 1.5em;
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.orange {
+    color:hsl(31, 77%, 52%);
+}
+
+.green {
+    color:hsl(184, 100%, 22%);
+}
+
+.dark {
+    color:hsl(179, 100%, 13%);
+}
+
 .attribution {
     font-size: 11px; text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
 
 /*
 The designs were created to the following widths:
@@ -36,4 +100,8 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 
 - Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
 - Weights: 700
+
+font-family: 'Big Shoulders Display', cursive;
+font-family: 'Lexend Deca', sans-serif;
+
 */
